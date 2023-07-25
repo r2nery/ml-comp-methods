@@ -1,0 +1,90 @@
+Features numéricos contínuos que se referem a dimensões / área (em pés / pés quadrados) (18):
+- 'LotFrontage': Pés lineares da rua conectados à propriedade;
+- 'LotArea': Área do lote;
+- 'MasVnrArea': Área de alvenaria;
+- 'BsmtFinSF1': Área acabada do porão (do primeiro tipo);
+- 'BsmtFinSF2': Área acabada do porão (do segundo tipo, se mais de um);
+- 'BsmtUnfSF': Área não acabada do porão;
+- 'TotalBsmtSF': Área total do porão;
+- '1stFlrSF': Área do primeiro andar;
+- '2ndFlrSF': Área do segundo andar;
+- 'LowQualFinSF': Área com acabamento de baixa qualidade (todos os andares);
+- 'GrLivArea': Área útil acima do nível solo;
+- 'GarageArea': Área da garagem;
+- 'WoodDeckSF': Área do deck de madeira;
+- 'OpenPorchSF': Área de varanda aberta;
+- 'EnclosedPorch': Área de varanda fechada;
+- '3SsnPorch': Área da varanda de três temporadas;
+- 'ScreenPorch': Área da tela da varanda;
+- 'PoolArea': Área da piscina;
+
+Features numéricos contínuos de valores monetários (1):
+- 'MiscVal': Valor monetário de características diversas não incluídas em outras categorias;
+
+Features numéricos discretos de quantidades de alguma característica da casa (9):
+- 'BsmtFullBath': Banheiros completos no porão;
+- 'BsmtHalfBath': Lavabos no porão;
+- 'FullBath': Banheiros completos acima do nível do solo;
+- 'HalfBath': Lavabos completos acima do nível do solo;
+- 'BedroomAbvGr': Quartos acima do nível do solo (não inclui quartos no subsolo);
+- 'KitchenAbvGr': Cozinhas acima do nível do solo;
+- 'TotRmsAbvGrd': Total de cômodos acima do nível do solo (não inclui banheiros);
+- 'Fireplaces': Número de lareiras;
+- 'GarageCars': Capacidade da garagem (número de carros);
+
+Features numéricos discretos relacionados a datas (5) (exceção para 'GarageYrBlt', que possui valores contínuos):
+- 'YearBuilt': Ano de construção da casa;
+- 'YearRemodAdd': Ano da reforma da casa (mesma do ano da construção de não houver);
+- 'GarageYrBlt': Ano de construção da garagem;
+- 'MoSold': Mês de venda;
+- 'YrSold': Ano de venda;
+
+Features categóricos ordinais (22):
+- 'LotShape': Formato geral do lote (regular, ligeiramente irregular, moderadamente irregular, irregular);
+- 'Utilities': Utilidades disponíveis (de apenas eletricidade a todas);
+- 'LandSlope': Inclinação do terreno (3 níveis);
+- 'OverallQual': Qualidade geral da casa (de 0 a 10);
+- 'OverallCond': Condições gerais da cada (de 0 a 10);
+- 'ExterQual': Qualidade do material no exterior (5 níveis);
+- 'ExterCond': Avaliação a condição atual do material no exterior (5 níveis);
+- 'BsmtQual': Avaliação a altura do porão (5 níveis);
+- 'BsmtCond': Avaliação do estado geral do porão (5 níveis);
+- 'BsmtFinType1': Classificação da área acabada do porão (6 níveis + NA);
+- 'BsmtFinType2': Classificação da área acabada do porão (para o segundo tipo, se mais de um) (6 níveis + NA);
+- 'BsmtExposure': Avaliação da exposição externa do porão;
+- 'HeatingQC': Qualidade e condição do aquecimento (5 níveis);
+- 'KitchenQual': Qualidade da cozinha (5 níveis);
+- 'Functional': Funcionalidade inicial (presuma típica, a menos que as deduções sejam garantidas) (8 níveis);
+- 'FireplaceQu': Qualidade da lareira (5 níveis + NA);
+- 'GarageFinish': Estado do acabamento interior da garagem (acabado, mal acabado, não acabado, sem garagem, NA);
+- 'GarageQual': Qualidade da garagem (5 níveis + NA);
+- 'GarageCond': Condição da garagem (5 níveis + NA);
+- 'PavedDrive': Pavimento da pista até a garagem (pavimentado, parcialmente pavimentado, sem pavimento/cascalho);
+- 'PoolQC': Qualidade da piscina (4 níveis + NA);
+- 'Fence': Qualidade da cerca (4 níveis + NA);
+
+Features categóricos nominais (24):
+- 'Street': Tipo de estrada de acesso à propriedade (pavimentada ou de cascalho);
+- 'Alley': Tipo de acesso à propriedade (pavimentada, de cascalho ou NA);
+- 'MSSubClass': Classificação do tipo de imóvel;
+- 'MSZoning': Classificação geral do zoneamento (Comercial, Agricultural, Residencial de média densidade, etc);
+- 'LandContour': Tipo de nivelamento do terreno da propriedade;
+- 'LotConfig': Configuração do lote (ex: esquina, dentro do lote, etc.);
+- 'Neighborhood': Bairro;
+- 'Condition1': Proximidade a alguma via específica (ex: Adjacente à Ferrovia Norte-Sul);
+- 'Condition2': Idem a anterior, se mais de uma;
+- 'BldgType': Tipo de moradia (ex: duplex, unidade interna da casa geminada, etc.);
+- 'HouseStyle': Estilo de moradia (ex: casa térrea, sobrado, etc.). Semelhante a MSSubClass, mas menos detalhado;
+- 'RoofStyle': Tipo de telhado;
+- 'RoofMatl': Material do telhado;
+- 'Exterior1st': Tipo de acabamento exterior;
+- 'Exterior2nd': Idem a anterior, se mais de um;
+- 'MasVnrType': Tipo da cobertura da alvenaria;
+- 'Foundation': Tipo de fundação;
+- 'Heating': Tipo de aquecimento;
+- 'CentralAir': Ar condicionado central (sim ou não);
+- 'Electrical': Sistema elétrico;
+- 'GarageType': Localização da garagem em relação a casa;
+- 'MiscFeature': Características diversas não incluídas em outras categorias;
+- 'SaleType': Tipo de venda (tipo de garantia, tipo de contrato);
+- 'SaleCondition': Condição de venda (ex: normal, venda entre membros de família, etc.).
