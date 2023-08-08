@@ -1,8 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
+import warnings
+
 
 np.random.seed(42)
+warnings.filterwarnings("ignore", category=np.RankWarning)
 
 
 class PolynomialFittingApp:

@@ -44,7 +44,7 @@ Features categóricos ordinais (22):
 - 'Utilities': Utilidades disponíveis (de apenas eletricidade a todas);
 - 'LandSlope': Inclinação do terreno (3 níveis);
 - 'OverallQual': Qualidade geral da casa (de 0 a 10);
-- 'OverallCond': Condições gerais da cada (de 0 a 10);
+- 'OverallCond': Condições gerais da casa (de 0 a 10);
 - 'ExterQual': Qualidade do material no exterior (5 níveis);
 - 'ExterCond': Avaliação a condição atual do material no exterior (5 níveis);
 - 'BsmtQual': Avaliação a altura do porão (5 níveis);
