@@ -12,7 +12,7 @@ Abordagem rápida e simples para uma introdução à programação em Python.
 #### 1.4 Programação Funcional
 
 ### 2. Módulo 2
-Revisão hands-on de Econometria à nível de graduação.
+Revisão hands-on de Econometria a nível de graduação.
 #### 2.1 Regressão Linear
 #### 2.2 Séries Temporais
 #### 2.3 Painel de dados
